@@ -76,7 +76,7 @@ while (finish === false) {
 
   instructions = `${instructions}, ${quitInfo}.`;
   console.log(instructions);
-}
+
   
 // ------------------------------
 
@@ -99,4 +99,5 @@ while (finish === false) {
   } else if (lowerCaseAnswer === 'q') {
     finish = true;
   }
+}
   // ------------------------------
